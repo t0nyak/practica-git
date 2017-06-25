@@ -24,3 +24,11 @@ de mergear.
 
 Sí, ya que ambos tenían versiones diferentes del mismo archivo y habían
 partido de la misma.
+
+### El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+
+No, ya que master no se había modificado desde que se creó styled
+a partir de master, por lo que toma los cambios como una actualización
+y simplemente los añade.
+
+
