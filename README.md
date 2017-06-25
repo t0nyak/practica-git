@@ -19,3 +19,8 @@ para contestar la primera pregunta y por último `git commit -m "..."`
 
 No, ya que styled se creó de la misma versión de master que acabamos
 de mergear.
+
+### El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+
+Sí, ya que ambos tenían versiones diferentes del mismo archivo y habían
+partido de la misma.
