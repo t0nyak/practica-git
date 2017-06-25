@@ -30,3 +30,17 @@ partido de la misma.
 git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 No es necesario especificar --color pero de esta manera es más "agradable" visualmente
+
+### El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+
+No, básicamente porque fast-forward lo que hace es adelantar el puntero
+hasta la posición de la rama que es absorbida, pero en este caso
+la cabeza de htmlify estaba más atrasada que la de master, ya que
+se había absorbido htmlify por styled y luego styled por master.
+
+### ¿Qué comando o comandos utilizaste en el paso 27?
+
+Podría usar un comando como `git revert` pero en cualquier caso
+aquí no hay ningún merge que deshacer. Master está ya en un
+punto más avanzado que 
+
