@@ -19,3 +19,14 @@ para contestar la primera pregunta y por último `git commit -m "..."`
 
 No, ya que styled se creó de la misma versión de master que acabamos
 de mergear.
+
+### El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+
+Sí, ya que ambos tenían versiones diferentes del mismo archivo y habían
+partido de la misma.
+
+### ¿Qué comando o comandos utilizaste en el paso 25?
+
+git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+No es necesario especificar --color pero de esta manera es más "agradable" visualmente
