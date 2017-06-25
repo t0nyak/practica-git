@@ -15,4 +15,6 @@ y de esta forma no se pueden recuperar esos cambios y a continuación
 he utilizado `git add README.md` ya que había modificado el archivo
 para contestar la primera pregunta y por último `git commit -m "..."`
 
+### El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 
+No, ya que master cuando se creó no tenía nada
