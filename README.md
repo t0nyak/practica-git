@@ -64,4 +64,11 @@ después de borrar una rama)
 
 He utilizado simplemente `git merge title`
 
+### ¿Qué comando o comandos utilizaste en el paso 32?
 
+He utilizado primero `git reflog` para ver la referencia
+del commit concreto y a continuación he utilizado `git checkout 9c3d882`
+
+### ¿Qué comando o comandos utilizaste en el paso 33?
+
+Aquí he revisado el log y utilizado directamente `git checkout b1fa40b`
