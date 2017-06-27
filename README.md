@@ -30,3 +30,19 @@ partido de la misma.
 No, ya que master no se había modificado desde que se creó styled
 a partir de master, por lo que toma los cambios como una actualización
 y simplemente los añade.
+
+### ¿Qué comando o comandos utilizaste en el paso 25?
+
+git log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+No es necesario especificar --color pero de esta manera es más "agradable" visualmente
+
+### El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+
+Sí, podría ser fast-forward ya que git sólo tenía que adelantar
+el puntero.
+
+### ¿Qué comando o comandos utilizaste en el paso 27?
+
+Vale con utilizar `git reset HEAD~1`. Esta vez sin --hard para
+no perder los cambios.
