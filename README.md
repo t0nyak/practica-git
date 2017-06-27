@@ -46,3 +46,9 @@ el puntero.
 
 Vale con utilizar `git reset HEAD~1`. Esta vez sin --hard para
 no perder los cambios.
+
+### ¿Qué comando o comandos utilizaste en el paso 28?
+
+He utilizado el comando `git checkout -- git-nuestro.md`
+
+
