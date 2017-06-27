@@ -51,4 +51,17 @@ no perder los cambios.
 
 He utilizado el comando `git checkout -- git-nuestro.md`
 
+### ¿Qué comando o comandos utilizaste en el paso 29?
+
+He utilizado el comando `git checkout -d title`, pero no
+me deja porque me dice que hay cambios sin mergear. Podría
+forzarlo haciendo `git checkout -D title` pero lo he dejado
+para poder hacer el merge con master que se pide en el siguiente
+paso (no sé, si no es así, cómo se puede repetir el merge
+después de borrar una rama)
+
+### ¿Qué comando o comandos utilizaste en el paso 30?
+
+He utilizado simplemente `git merge title`
+
 
